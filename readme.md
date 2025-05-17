@@ -1,31 +1,28 @@
-# Trade Site Redesign
+## Mockups do Design Brutalista
 
-Um redesign brutalista contemporâneo para o site de trade, inspirado em Nike Future Movement, Vice, estilo brutalista, Nelson Heinemann, Raw Magazine, The Disslist e Apple.
+### Página de Login
+![Página de Login](./mockup_login_page.png)
 
-## Características
+### Dashboard
+![Dashboard](./mockup_dashboard.png)
 
-- Design brutalista contemporâneo
-- Tipografia impactante e oversized
-- Alto contraste entre elementos
-- Layout assimétrico com grid visível
-- Verde pastel como cor de destaque
+### Listagem de Trades
+![Listagem de Trades](./mockup_trades_page.png)
 
-## Tecnologias
+## Documentação Técnica
 
-- Next.js
-- React
-- Tailwind CSS
-- Axios para API
-- Framer Motion para animações
+- [Documentação do Redesign Brutalista](./documentacao_tecnica_redesign.md)
+- [Integração com CoinGecko](./integracao_coingecko.md)
+- [Correção dos Filtros](./correcao_filtros.md)
 
-## Como executar
+## Estrutura do Projeto
 
-```bash
-# Instalar dependências
-npm install
+O projeto segue uma arquitetura modular com:
 
-# Executar em modo de desenvolvimento
-npm run dev
-
-# Acessar http://localhost:3000
-
+- `/src/pages` - Páginas principais da aplicação
+- `/src/components` - Componentes reutilizáveis organizados por funcionalidade
+- `/src/services` - Serviços para comunicação com APIs
+- `/src/styles` - Estilos globais e configurações de tema
+- `/src/utils` - Utilitários e funções auxiliares
+- `/src/hooks` - Hooks personalizados
+- `/src/context` - Contextos React
