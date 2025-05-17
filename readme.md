@@ -1,5 +1,3 @@
-## Mockups do Design Brutalista
-
 ### Página de Login
 ![Página de Login](./mockup_login_page.png)
 
