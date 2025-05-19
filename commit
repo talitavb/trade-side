@@ -1,0 +1,2 @@
+git commit --allow-empty -m "Forçar novo deployment sem cache"
+git push
